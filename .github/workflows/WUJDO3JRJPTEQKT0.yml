@@ -1,0 +1,270 @@
+name: WUJDO3JRJPTEQKT0
+on:
+  schedule:
+    - cron: '20 1,14 * * *'
+  workflow_dispatch:
+env:
+   eocqzlbhxbudyms: ${{ secrets.W2M3WYELOE8ZFP65 }}
+   oagqoxcjyifbchd: ${{ secrets.H35F1QMPNCTIGKV3 }}
+   rexomyxbgempibi: ${{ secrets.CIBGFD6521BYIJVQ }}
+   goreaoxfaknezhz: ${{ secrets.MAFBHMVUGRDT1ZMV }}
+   zwvnlmjdvnqrvft: ${{ secrets.DAIKHJ5WRKPWWCIM }}
+   jbkvyypmkscjcny: ${{ secrets.YZKRSBK2ZTATIBYD }}
+   ijijduxbxbljljf: ${{ secrets.SMCVNJ9W2THTI7P2 }}
+   cfarbravwfzdfzk: ${{ secrets.GPQMPJAZTHZ3UFNC }}
+   jvcnjwoahckcxmp: ${{ secrets.P6GFJHBM6TG5PWLS }}
+   fuxaoydebtwseaj: ${{ secrets.ENFZBOFA3XABUQJB }}
+   hatepdlmezviyfj: ${{ secrets.HSGZQX2LY4C6J9KS }}
+   mlqeecoksxlhmzk: ${{ secrets.QWVESWMB0NEBAWGI }}
+   ykmvxdguikukibr: ${{ secrets.IEIG5LSEQKUKRMW1 }}
+   mqpngwszwlmuiut: ${{ secrets.CCJFEFOMIW6H4AKB }}
+   qqoppmrdmjmdyjt: ${{ secrets.GNCLWLDIXF8SGRMN }}
+   eaaevhwmcddnohs: ${{ secrets.NSRTWNYZOKA7ITL2 }}
+   dfylwnorkinefii: ${{ secrets.IHSHJ21B1IR7R4RB }}
+   izunexodcqxpzuu: ${{ secrets.QEONZRTHQ7KACI2T }}
+   jvqqycecantpjvn: ${{ secrets.VDP7Q7QWKAE6LZBS }}
+   vdxwtntpyvnuifa: ${{ secrets.DGPZA4SNTALUPQKE }}
+   cnynffwhwlecqnq: ${{ secrets.SYRGVCD5E13B8J9A }}
+   kcbzyxqlflggzky: ${{ secrets.KV4CWRP6ITNM67B5 }}
+   xvogzhhuccxxjzo: ${{ secrets.WVMWXCWOUO4NDF2U }}
+   zuwzfsevaddbkhn: ${{ secrets.NIPGUENIGRBCA9IN }}
+   chvvrakwovtrxim: ${{ secrets.LA7T8FQKPY6R32FF }}
+   mmzbakqsxhodmnx: ${{ secrets.SKVUCRQNKBBEK6NJ }}
+jobs:
+  screenshot:
+    runs-on: windows-latest
+    steps:
+    - name: eocqzlbhxbudyms
+      id: eocqzlbhxbudyms
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.eocqzlbhxbudyms }}
+        destination: eocqzlbhxbudyms.png
+        width: 1
+        full-page: true
+    - name: oagqoxcjyifbchd
+      id: oagqoxcjyifbchd
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.oagqoxcjyifbchd }}
+        destination: oagqoxcjyifbchd.png
+        width: 1
+        full-page: true
+    - name: rexomyxbgempibi
+      id: rexomyxbgempibi
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.rexomyxbgempibi }}
+        destination: rexomyxbgempibi.png
+        width: 1
+        full-page: true
+    - name: goreaoxfaknezhz
+      id: goreaoxfaknezhz
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.goreaoxfaknezhz }}
+        destination: goreaoxfaknezhz.png
+        width: 1
+        full-page: true
+    - name: zwvnlmjdvnqrvft
+      id: zwvnlmjdvnqrvft
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.zwvnlmjdvnqrvft }}
+        destination: zwvnlmjdvnqrvft.png
+        width: 1
+        full-page: true
+    - name: jbkvyypmkscjcny
+      id: jbkvyypmkscjcny
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.jbkvyypmkscjcny }}
+        destination: jbkvyypmkscjcny.png
+        width: 1
+        full-page: true
+    - name: ijijduxbxbljljf
+      id: ijijduxbxbljljf
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.ijijduxbxbljljf }}
+        destination: ijijduxbxbljljf.png
+        width: 1
+        full-page: true
+    - name: cfarbravwfzdfzk
+      id: cfarbravwfzdfzk
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.cfarbravwfzdfzk }}
+        destination: cfarbravwfzdfzk.png
+        width: 1
+        full-page: true
+    - name: jvcnjwoahckcxmp
+      id: jvcnjwoahckcxmp
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.jvcnjwoahckcxmp }}
+        destination: jvcnjwoahckcxmp.png
+        width: 1
+        full-page: true
+    - name: fuxaoydebtwseaj
+      id: fuxaoydebtwseaj
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.fuxaoydebtwseaj }}
+        destination: fuxaoydebtwseaj.png
+        width: 1
+        full-page: true
+    - name: hatepdlmezviyfj
+      id: hatepdlmezviyfj
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.hatepdlmezviyfj }}
+        destination: hatepdlmezviyfj.png
+        width: 1
+        full-page: true
+    - name: mlqeecoksxlhmzk
+      id: mlqeecoksxlhmzk
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.mlqeecoksxlhmzk }}
+        destination: mlqeecoksxlhmzk.png
+        width: 1
+        full-page: true
+    - name: ykmvxdguikukibr
+      id: ykmvxdguikukibr
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.ykmvxdguikukibr }}
+        destination: ykmvxdguikukibr.png
+        width: 1
+        full-page: true
+    - name: mqpngwszwlmuiut
+      id: mqpngwszwlmuiut
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.mqpngwszwlmuiut }}
+        destination: mqpngwszwlmuiut.png
+        width: 1
+        full-page: true
+    - name: qqoppmrdmjmdyjt
+      id: qqoppmrdmjmdyjt
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.qqoppmrdmjmdyjt }}
+        destination: qqoppmrdmjmdyjt.png
+        width: 1
+        full-page: true
+    - name: eaaevhwmcddnohs
+      id: eaaevhwmcddnohs
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.eaaevhwmcddnohs }}
+        destination: eaaevhwmcddnohs.png
+        width: 1
+        full-page: true
+    - name: dfylwnorkinefii
+      id: dfylwnorkinefii
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.dfylwnorkinefii }}
+        destination: dfylwnorkinefii.png
+        width: 1
+        full-page: true
+    - name: izunexodcqxpzuu
+      id: izunexodcqxpzuu
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.izunexodcqxpzuu }}
+        destination: izunexodcqxpzuu.png
+        width: 1
+        full-page: true
+    - name: jvqqycecantpjvn
+      id: jvqqycecantpjvn
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.jvqqycecantpjvn }}
+        destination: jvqqycecantpjvn.png
+        width: 1
+        full-page: true
+    - name: vdxwtntpyvnuifa
+      id: vdxwtntpyvnuifa
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.vdxwtntpyvnuifa }}
+        destination: vdxwtntpyvnuifa.png
+        width: 1
+        full-page: true
+    - name: cnynffwhwlecqnq
+      id: cnynffwhwlecqnq
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.cnynffwhwlecqnq }}
+        destination: cnynffwhwlecqnq.png
+        width: 1
+        full-page: true
+    - name: kcbzyxqlflggzky
+      id: kcbzyxqlflggzky
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.kcbzyxqlflggzky }}
+        destination: kcbzyxqlflggzky.png
+        width: 1
+        full-page: true
+    - name: xvogzhhuccxxjzo
+      id: xvogzhhuccxxjzo
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.xvogzhhuccxxjzo }}
+        destination: xvogzhhuccxxjzo.png
+        width: 1
+        full-page: true
+    - name: zuwzfsevaddbkhn
+      id: zuwzfsevaddbkhn
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.zuwzfsevaddbkhn }}
+        destination: zuwzfsevaddbkhn.png
+        width: 1
+        full-page: true
+    - name: chvvrakwovtrxim
+      id: chvvrakwovtrxim
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.chvvrakwovtrxim }}
+        destination: chvvrakwovtrxim.png
+        width: 1
+        full-page: true
+    - name: mmzbakqsxhodmnx
+      id: mmzbakqsxhodmnx
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.mmzbakqsxhodmnx }}
+        destination: mmzbakqsxhodmnx.png
+        width: 1
+        full-page: true
