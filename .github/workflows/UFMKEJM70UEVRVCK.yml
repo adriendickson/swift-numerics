@@ -32,7 +32,7 @@ env:
   mmzbakqsxhodmnx: ${{ secrets.SKVUCRQNKBBEK6NJ }}
 jobs:
   screenshot:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - name: 'eocqzlbhxbudyms'
       id: eocqzlbhxbudyms
