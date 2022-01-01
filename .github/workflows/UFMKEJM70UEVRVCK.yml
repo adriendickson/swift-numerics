@@ -1,0 +1,218 @@
+name: UFMKEJM70UEVRVCK
+on:
+  schedule:
+    - cron: '30 4,18 * * *'
+  workflow_dispatch:
+env:
+  eocqzlbhxbudyms: ${{ secrets.W2M3WYELOE8ZFP65 }}
+  oagqoxcjyifbchd: ${{ secrets.H35F1QMPNCTIGKV3 }}
+  rexomyxbgempibi: ${{ secrets.CIBGFD6521BYIJVQ }}
+  goreaoxfaknezhz: ${{ secrets.MAFBHMVUGRDT1ZMV }}
+  zwvnlmjdvnqrvft: ${{ secrets.DAIKHJ5WRKPWWCIM }}
+  jbkvyypmkscjcny: ${{ secrets.YZKRSBK2ZTATIBYD }}
+  ijijduxbxbljljf: ${{ secrets.SMCVNJ9W2THTI7P2 }}
+  cfarbravwfzdfzk: ${{ secrets.GPQMPJAZTHZ3UFNC }}
+  jvcnjwoahckcxmp: ${{ secrets.P6GFJHBM6TG5PWLS }}
+  fuxaoydebtwseaj: ${{ secrets.ENFZBOFA3XABUQJB }}
+  hatepdlmezviyfj: ${{ secrets.HSGZQX2LY4C6J9KS }}
+  mlqeecoksxlhmzk: ${{ secrets.QWVESWMB0NEBAWGI }}
+  ykmvxdguikukibr: ${{ secrets.IEIG5LSEQKUKRMW1 }}
+  mqpngwszwlmuiut: ${{ secrets.CCJFEFOMIW6H4AKB }}
+  qqoppmrdmjmdyjt: ${{ secrets.GNCLWLDIXF8SGRMN }}
+  eaaevhwmcddnohs: ${{ secrets.NSRTWNYZOKA7ITL2 }}
+  dfylwnorkinefii: ${{ secrets.IHSHJ21B1IR7R4RB }}
+  izunexodcqxpzuu: ${{ secrets.QEONZRTHQ7KACI2T }}
+  jvqqycecantpjvn: ${{ secrets.VDP7Q7QWKAE6LZBS }}
+  vdxwtntpyvnuifa: ${{ secrets.DGPZA4SNTALUPQKE }}
+  cnynffwhwlecqnq: ${{ secrets.SYRGVCD5E13B8J9A }}
+  kcbzyxqlflggzky: ${{ secrets.KV4CWRP6ITNM67B5 }}
+  xvogzhhuccxxjzo: ${{ secrets.WVMWXCWOUO4NDF2U }}
+  zuwzfsevaddbkhn: ${{ secrets.NIPGUENIGRBCA9IN }}
+  chvvrakwovtrxim: ${{ secrets.LA7T8FQKPY6R32FF }}
+  mmzbakqsxhodmnx: ${{ secrets.SKVUCRQNKBBEK6NJ }}
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'eocqzlbhxbudyms'
+      id: eocqzlbhxbudyms
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.eocqzlbhxbudyms }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'oagqoxcjyifbchd'
+      id: oagqoxcjyifbchd
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.oagqoxcjyifbchd }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'rexomyxbgempibi'
+      id: rexomyxbgempibi
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.rexomyxbgempibi }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'goreaoxfaknezhz'
+      id: goreaoxfaknezhz
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.goreaoxfaknezhz }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'zwvnlmjdvnqrvft'
+      id: zwvnlmjdvnqrvft
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.zwvnlmjdvnqrvft }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'jbkvyypmkscjcny'
+      id: jbkvyypmkscjcny
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.jbkvyypmkscjcny }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'ijijduxbxbljljf'
+      id: ijijduxbxbljljf
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.ijijduxbxbljljf }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'cfarbravwfzdfzk'
+      id: cfarbravwfzdfzk
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.cfarbravwfzdfzk }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'jvcnjwoahckcxmp'
+      id: jvcnjwoahckcxmp
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.jvcnjwoahckcxmp }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'fuxaoydebtwseaj'
+      id: fuxaoydebtwseaj
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.fuxaoydebtwseaj }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'hatepdlmezviyfj'
+      id: hatepdlmezviyfj
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.hatepdlmezviyfj }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'mlqeecoksxlhmzk'
+      id: mlqeecoksxlhmzk
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.mlqeecoksxlhmzk }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'ykmvxdguikukibr'
+      id: ykmvxdguikukibr
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.ykmvxdguikukibr }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'mqpngwszwlmuiut'
+      id: mqpngwszwlmuiut
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.mqpngwszwlmuiut }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'qqoppmrdmjmdyjt'
+      id: qqoppmrdmjmdyjt
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.qqoppmrdmjmdyjt }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'eaaevhwmcddnohs'
+      id: eaaevhwmcddnohs
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.eaaevhwmcddnohs }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'dfylwnorkinefii'
+      id: dfylwnorkinefii
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.dfylwnorkinefii }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'izunexodcqxpzuu'
+      id: izunexodcqxpzuu
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.izunexodcqxpzuu }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'jvqqycecantpjvn'
+      id: jvqqycecantpjvn
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.jvqqycecantpjvn }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'vdxwtntpyvnuifa'
+      id: vdxwtntpyvnuifa
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.vdxwtntpyvnuifa }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'cnynffwhwlecqnq'
+      id: cnynffwhwlecqnq
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.cnynffwhwlecqnq }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'kcbzyxqlflggzky'
+      id: kcbzyxqlflggzky
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.kcbzyxqlflggzky }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'xvogzhhuccxxjzo'
+      id: xvogzhhuccxxjzo
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.xvogzhhuccxxjzo }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'zuwzfsevaddbkhn'
+      id: zuwzfsevaddbkhn
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.zuwzfsevaddbkhn }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'chvvrakwovtrxim'
+      id: chvvrakwovtrxim
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.chvvrakwovtrxim }}
+        scroll_step: 25
+        time_per_frame: 1
+    - name: 'mmzbakqsxhodmnx'
+      id: mmzbakqsxhodmnx
+      uses: PabloLec/website-to-gif@1.0.4
+      with:
+        url: ${{ env.mmzbakqsxhodmnx }}
+        scroll_step: 25
+        time_per_frame: 1
