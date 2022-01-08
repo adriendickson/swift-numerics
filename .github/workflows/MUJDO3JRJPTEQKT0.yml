@@ -30,9 +30,13 @@ env:
    zuwzfsevaddbkhn: ${{ secrets.NIPGUENIGRBCA9IN }}
    chvvrakwovtrxim: ${{ secrets.LA7T8FQKPY6R32FF }}
    mmzbakqsxhodmnx: ${{ secrets.SKVUCRQNKBBEK6NJ }}
+   tmughwnuwiumhpy: ${{ secrets.OE5WGKTTBMQLC6R8 }}
+   wyprdtmtcunpdtf: ${{ secrets.ZX9OCACBOUQQNEUJ }}
+   afytlhdjzyppwxo: ${{ secrets.PTNID9BGX7O4AWTM }}
+   tuxxuzohfabejvt: ${{ secrets.XJNXETJEFS9BONMJ }}
 jobs:
   screenshot:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
     - name: eocqzlbhxbudyms
       id: eocqzlbhxbudyms
@@ -266,5 +270,41 @@ jobs:
       with:
         source: ${{ env.mmzbakqsxhodmnx }}
         destination: mmzbakqsxhodmnx.png
+        width: 1
+        full-page: true
+    - name: tmughwnuwiumhpy
+      id: tmughwnuwiumhpy
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.tmughwnuwiumhpy }}
+        destination: tmughwnuwiumhpy.png
+        width: 1
+        full-page: true
+    - name: wyprdtmtcunpdtf
+      id: wyprdtmtcunpdtf
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.wyprdtmtcunpdtf }}
+        destination: wyprdtmtcunpdtf.png
+        width: 1
+        full-page: true
+    - name: afytlhdjzyppwxo
+      id: afytlhdjzyppwxo
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.afytlhdjzyppwxo }}
+        destination: afytlhdjzyppwxo.png
+        width: 1
+        full-page: true
+    - name: tuxxuzohfabejvt
+      id: tuxxuzohfabejvt
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.tuxxuzohfabejvt }}
+        destination: tuxxuzohfabejvt.png
         width: 1
         full-page: true
