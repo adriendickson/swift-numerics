@@ -36,7 +36,7 @@ env:
    tuxxuzohfabejvt: ${{ secrets.XJNXETJEFS9BONMJ }}
 jobs:
   screenshot:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - name: eocqzlbhxbudyms
       id: eocqzlbhxbudyms
