@@ -4,215 +4,307 @@ on:
     - cron: '30 4,18 * * *'
   workflow_dispatch:
 env:
-  eocqzlbhxbudyms: ${{ secrets.W2M3WYELOE8ZFP65 }}
-  oagqoxcjyifbchd: ${{ secrets.H35F1QMPNCTIGKV3 }}
-  rexomyxbgempibi: ${{ secrets.CIBGFD6521BYIJVQ }}
-  goreaoxfaknezhz: ${{ secrets.MAFBHMVUGRDT1ZMV }}
-  zwvnlmjdvnqrvft: ${{ secrets.DAIKHJ5WRKPWWCIM }}
-  jbkvyypmkscjcny: ${{ secrets.YZKRSBK2ZTATIBYD }}
-  ijijduxbxbljljf: ${{ secrets.SMCVNJ9W2THTI7P2 }}
-  cfarbravwfzdfzk: ${{ secrets.GPQMPJAZTHZ3UFNC }}
-  jvcnjwoahckcxmp: ${{ secrets.P6GFJHBM6TG5PWLS }}
-  fuxaoydebtwseaj: ${{ secrets.ENFZBOFA3XABUQJB }}
-  hatepdlmezviyfj: ${{ secrets.HSGZQX2LY4C6J9KS }}
-  mlqeecoksxlhmzk: ${{ secrets.QWVESWMB0NEBAWGI }}
-  ykmvxdguikukibr: ${{ secrets.IEIG5LSEQKUKRMW1 }}
-  mqpngwszwlmuiut: ${{ secrets.CCJFEFOMIW6H4AKB }}
-  qqoppmrdmjmdyjt: ${{ secrets.GNCLWLDIXF8SGRMN }}
-  eaaevhwmcddnohs: ${{ secrets.NSRTWNYZOKA7ITL2 }}
-  dfylwnorkinefii: ${{ secrets.IHSHJ21B1IR7R4RB }}
-  izunexodcqxpzuu: ${{ secrets.QEONZRTHQ7KACI2T }}
-  jvqqycecantpjvn: ${{ secrets.VDP7Q7QWKAE6LZBS }}
-  vdxwtntpyvnuifa: ${{ secrets.DGPZA4SNTALUPQKE }}
-  cnynffwhwlecqnq: ${{ secrets.SYRGVCD5E13B8J9A }}
-  kcbzyxqlflggzky: ${{ secrets.KV4CWRP6ITNM67B5 }}
-  xvogzhhuccxxjzo: ${{ secrets.WVMWXCWOUO4NDF2U }}
-  zuwzfsevaddbkhn: ${{ secrets.NIPGUENIGRBCA9IN }}
-  chvvrakwovtrxim: ${{ secrets.LA7T8FQKPY6R32FF }}
-  mmzbakqsxhodmnx: ${{ secrets.SKVUCRQNKBBEK6NJ }}
+   eocqzlbhxbudyms: ${{ secrets.W2M3WYELOE8ZFP65 }}
+   oagqoxcjyifbchd: ${{ secrets.H35F1QMPNCTIGKV3 }}
+   rexomyxbgempibi: ${{ secrets.CIBGFD6521BYIJVQ }}
+   goreaoxfaknezhz: ${{ secrets.MAFBHMVUGRDT1ZMV }}
+   zwvnlmjdvnqrvft: ${{ secrets.DAIKHJ5WRKPWWCIM }}
+   jbkvyypmkscjcny: ${{ secrets.YZKRSBK2ZTATIBYD }}
+   ijijduxbxbljljf: ${{ secrets.SMCVNJ9W2THTI7P2 }}
+   cfarbravwfzdfzk: ${{ secrets.GPQMPJAZTHZ3UFNC }}
+   jvcnjwoahckcxmp: ${{ secrets.P6GFJHBM6TG5PWLS }}
+   fuxaoydebtwseaj: ${{ secrets.ENFZBOFA3XABUQJB }}
+   hatepdlmezviyfj: ${{ secrets.HSGZQX2LY4C6J9KS }}
+   mlqeecoksxlhmzk: ${{ secrets.QWVESWMB0NEBAWGI }}
+   ykmvxdguikukibr: ${{ secrets.IEIG5LSEQKUKRMW1 }}
+   mqpngwszwlmuiut: ${{ secrets.CCJFEFOMIW6H4AKB }}
+   qqoppmrdmjmdyjt: ${{ secrets.GNCLWLDIXF8SGRMN }}
+   eaaevhwmcddnohs: ${{ secrets.NSRTWNYZOKA7ITL2 }}
+   dfylwnorkinefii: ${{ secrets.IHSHJ21B1IR7R4RB }}
+   izunexodcqxpzuu: ${{ secrets.QEONZRTHQ7KACI2T }}
+   jvqqycecantpjvn: ${{ secrets.VDP7Q7QWKAE6LZBS }}
+   vdxwtntpyvnuifa: ${{ secrets.DGPZA4SNTALUPQKE }}
+   cnynffwhwlecqnq: ${{ secrets.SYRGVCD5E13B8J9A }}
+   kcbzyxqlflggzky: ${{ secrets.KV4CWRP6ITNM67B5 }}
+   xvogzhhuccxxjzo: ${{ secrets.WVMWXCWOUO4NDF2U }}
+   zuwzfsevaddbkhn: ${{ secrets.NIPGUENIGRBCA9IN }}
+   chvvrakwovtrxim: ${{ secrets.LA7T8FQKPY6R32FF }}
+   mmzbakqsxhodmnx: ${{ secrets.SKVUCRQNKBBEK6NJ }}
+   tmughwnuwiumhpy: ${{ secrets.OE5WGKTTBMQLC6R8 }}
+   wyprdtmtcunpdtf: ${{ secrets.ZX9OCACBOUQQNEUJ }}
+   afytlhdjzyppwxo: ${{ secrets.PTNID9BGX7O4AWTM }}
+   tuxxuzohfabejvt: ${{ secrets.XJNXETJEFS9BONMJ }}
 jobs:
   screenshot:
     runs-on: ubuntu-latest
     steps:
-    - name: 'eocqzlbhxbudyms'
+    - name: eocqzlbhxbudyms
       id: eocqzlbhxbudyms
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.eocqzlbhxbudyms }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'oagqoxcjyifbchd'
+        source: ${{ env.eocqzlbhxbudyms }}
+        destination: eocqzlbhxbudyms.png
+        width: 1
+        full-page: true
+    - name: oagqoxcjyifbchd
       id: oagqoxcjyifbchd
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.oagqoxcjyifbchd }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'rexomyxbgempibi'
+        source: ${{ env.oagqoxcjyifbchd }}
+        destination: oagqoxcjyifbchd.png
+        width: 1
+        full-page: true
+    - name: rexomyxbgempibi
       id: rexomyxbgempibi
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.rexomyxbgempibi }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'goreaoxfaknezhz'
+        source: ${{ env.rexomyxbgempibi }}
+        destination: rexomyxbgempibi.png
+        width: 1
+        full-page: true
+    - name: goreaoxfaknezhz
       id: goreaoxfaknezhz
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.goreaoxfaknezhz }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'zwvnlmjdvnqrvft'
+        source: ${{ env.goreaoxfaknezhz }}
+        destination: goreaoxfaknezhz.png
+        width: 1
+        full-page: true
+    - name: zwvnlmjdvnqrvft
       id: zwvnlmjdvnqrvft
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.zwvnlmjdvnqrvft }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'jbkvyypmkscjcny'
+        source: ${{ env.zwvnlmjdvnqrvft }}
+        destination: zwvnlmjdvnqrvft.png
+        width: 1
+        full-page: true
+    - name: jbkvyypmkscjcny
       id: jbkvyypmkscjcny
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.jbkvyypmkscjcny }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'ijijduxbxbljljf'
+        source: ${{ env.jbkvyypmkscjcny }}
+        destination: jbkvyypmkscjcny.png
+        width: 1
+        full-page: true
+    - name: ijijduxbxbljljf
       id: ijijduxbxbljljf
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.ijijduxbxbljljf }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'cfarbravwfzdfzk'
+        source: ${{ env.ijijduxbxbljljf }}
+        destination: ijijduxbxbljljf.png
+        width: 1
+        full-page: true
+    - name: cfarbravwfzdfzk
       id: cfarbravwfzdfzk
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.cfarbravwfzdfzk }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'jvcnjwoahckcxmp'
+        source: ${{ env.cfarbravwfzdfzk }}
+        destination: cfarbravwfzdfzk.png
+        width: 1
+        full-page: true
+    - name: jvcnjwoahckcxmp
       id: jvcnjwoahckcxmp
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.jvcnjwoahckcxmp }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'fuxaoydebtwseaj'
+        source: ${{ env.jvcnjwoahckcxmp }}
+        destination: jvcnjwoahckcxmp.png
+        width: 1
+        full-page: true
+    - name: fuxaoydebtwseaj
       id: fuxaoydebtwseaj
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.fuxaoydebtwseaj }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'hatepdlmezviyfj'
+        source: ${{ env.fuxaoydebtwseaj }}
+        destination: fuxaoydebtwseaj.png
+        width: 1
+        full-page: true
+    - name: hatepdlmezviyfj
       id: hatepdlmezviyfj
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.hatepdlmezviyfj }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'mlqeecoksxlhmzk'
+        source: ${{ env.hatepdlmezviyfj }}
+        destination: hatepdlmezviyfj.png
+        width: 1
+        full-page: true
+    - name: mlqeecoksxlhmzk
       id: mlqeecoksxlhmzk
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.mlqeecoksxlhmzk }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'ykmvxdguikukibr'
+        source: ${{ env.mlqeecoksxlhmzk }}
+        destination: mlqeecoksxlhmzk.png
+        width: 1
+        full-page: true
+    - name: ykmvxdguikukibr
       id: ykmvxdguikukibr
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.ykmvxdguikukibr }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'mqpngwszwlmuiut'
+        source: ${{ env.ykmvxdguikukibr }}
+        destination: ykmvxdguikukibr.png
+        width: 1
+        full-page: true
+    - name: mqpngwszwlmuiut
       id: mqpngwszwlmuiut
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.mqpngwszwlmuiut }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'qqoppmrdmjmdyjt'
+        source: ${{ env.mqpngwszwlmuiut }}
+        destination: mqpngwszwlmuiut.png
+        width: 1
+        full-page: true
+    - name: qqoppmrdmjmdyjt
       id: qqoppmrdmjmdyjt
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.qqoppmrdmjmdyjt }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'eaaevhwmcddnohs'
+        source: ${{ env.qqoppmrdmjmdyjt }}
+        destination: qqoppmrdmjmdyjt.png
+        width: 1
+        full-page: true
+    - name: eaaevhwmcddnohs
       id: eaaevhwmcddnohs
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.eaaevhwmcddnohs }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'dfylwnorkinefii'
+        source: ${{ env.eaaevhwmcddnohs }}
+        destination: eaaevhwmcddnohs.png
+        width: 1
+        full-page: true
+    - name: dfylwnorkinefii
       id: dfylwnorkinefii
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.dfylwnorkinefii }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'izunexodcqxpzuu'
+        source: ${{ env.dfylwnorkinefii }}
+        destination: dfylwnorkinefii.png
+        width: 1
+        full-page: true
+    - name: izunexodcqxpzuu
       id: izunexodcqxpzuu
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.izunexodcqxpzuu }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'jvqqycecantpjvn'
+        source: ${{ env.izunexodcqxpzuu }}
+        destination: izunexodcqxpzuu.png
+        width: 1
+        full-page: true
+    - name: jvqqycecantpjvn
       id: jvqqycecantpjvn
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.jvqqycecantpjvn }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'vdxwtntpyvnuifa'
+        source: ${{ env.jvqqycecantpjvn }}
+        destination: jvqqycecantpjvn.png
+        width: 1
+        full-page: true
+    - name: vdxwtntpyvnuifa
       id: vdxwtntpyvnuifa
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.vdxwtntpyvnuifa }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'cnynffwhwlecqnq'
+        source: ${{ env.vdxwtntpyvnuifa }}
+        destination: vdxwtntpyvnuifa.png
+        width: 1
+        full-page: true
+    - name: cnynffwhwlecqnq
       id: cnynffwhwlecqnq
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.cnynffwhwlecqnq }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'kcbzyxqlflggzky'
+        source: ${{ env.cnynffwhwlecqnq }}
+        destination: cnynffwhwlecqnq.png
+        width: 1
+        full-page: true
+    - name: kcbzyxqlflggzky
       id: kcbzyxqlflggzky
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.kcbzyxqlflggzky }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'xvogzhhuccxxjzo'
+        source: ${{ env.kcbzyxqlflggzky }}
+        destination: kcbzyxqlflggzky.png
+        width: 1
+        full-page: true
+    - name: xvogzhhuccxxjzo
       id: xvogzhhuccxxjzo
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.xvogzhhuccxxjzo }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'zuwzfsevaddbkhn'
+        source: ${{ env.xvogzhhuccxxjzo }}
+        destination: xvogzhhuccxxjzo.png
+        width: 1
+        full-page: true
+    - name: zuwzfsevaddbkhn
       id: zuwzfsevaddbkhn
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.zuwzfsevaddbkhn }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'chvvrakwovtrxim'
+        source: ${{ env.zuwzfsevaddbkhn }}
+        destination: zuwzfsevaddbkhn.png
+        width: 1
+        full-page: true
+    - name: chvvrakwovtrxim
       id: chvvrakwovtrxim
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.chvvrakwovtrxim }}
-        scroll_step: 10
-        time_per_frame: 1
-    - name: 'mmzbakqsxhodmnx'
+        source: ${{ env.chvvrakwovtrxim }}
+        destination: chvvrakwovtrxim.png
+        width: 1
+        full-page: true
+    - name: mmzbakqsxhodmnx
       id: mmzbakqsxhodmnx
-      uses: PabloLec/website-to-gif@1.0.4
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
       with:
-        url: ${{ env.mmzbakqsxhodmnx }}
-        scroll_step: 10
-        time_per_frame: 1
+        source: ${{ env.mmzbakqsxhodmnx }}
+        destination: mmzbakqsxhodmnx.png
+        width: 1
+        full-page: true
+    - name: tmughwnuwiumhpy
+      id: tmughwnuwiumhpy
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.tmughwnuwiumhpy }}
+        destination: tmughwnuwiumhpy.png
+        width: 1
+        full-page: true
+    - name: wyprdtmtcunpdtf
+      id: wyprdtmtcunpdtf
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.wyprdtmtcunpdtf }}
+        destination: wyprdtmtcunpdtf.png
+        width: 1
+        full-page: true
+    - name: afytlhdjzyppwxo
+      id: afytlhdjzyppwxo
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.afytlhdjzyppwxo }}
+        destination: afytlhdjzyppwxo.png
+        width: 1
+        full-page: true
+    - name: tuxxuzohfabejvt
+      id: tuxxuzohfabejvt
+      uses: swinton/screenshot-website@v1.x
+      continue-on-error: true
+      with:
+        source: ${{ env.tuxxuzohfabejvt }}
+        destination: tuxxuzohfabejvt.png
+        width: 1
+        full-page: true
